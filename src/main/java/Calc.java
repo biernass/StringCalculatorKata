@@ -9,17 +9,30 @@ public class Calc {
         if (input.equals("")) {
             return 0;
         } else if (input.startsWith("//")) {
+            if(input.charAt(2) == '['){
+                String customSeparatorString = input.substring(3, input.indexOf(']'));
+                String newInput = input.substring(input.indexOf(']') + 3 , input.length() );
+                String[] characters = newInput.split(",|\n|" + customSeparatorString);
+
+                for (int i = 0; i < characters.length; i++) {
+                    if (Integer.parseInt(characters[i]) <= 1000) {
+                        sum += Integer.parseInt(characters[i]);
+                    }
+                }
+                return sum;
+
+            }
             char customSeparator = input.charAt(2);
             String newInput = input.substring(4);
             String[] characters = newInput.split(",|\n|" + customSeparator);
 
             for (int i = 0; i < characters.length; i++) {
-                if(Integer.parseInt(characters[i]) <= 1000){
+                if (Integer.parseInt(characters[i]) <= 1000) {
                     sum += Integer.parseInt(characters[i]);
                 }
-
             }
             return sum;
+
         } else {
             String[] inputAfterSplit = input.split(",|\n|;");
             String negatives = "";
@@ -34,10 +47,9 @@ public class Calc {
             } else {
                 for (int i = 0; i < inputAfterSplit.length; i++) {
                     if (!inputAfterSplit[i].equals("")) {
-                        if(Integer.parseInt(inputAfterSplit[i]) <= 1000){
+                        if (Integer.parseInt(inputAfterSplit[i]) <= 1000) {
                             sum += Integer.parseInt(inputAfterSplit[i]);
                         }
-
                     }
                 }
             }

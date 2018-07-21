@@ -82,6 +82,11 @@ public class StringCalculatorTests {
         Assert.assertEquals(9, Calc.Sum(input));
     }
 
+    @Test
+    public void shouldInputWithLongSeparatorAndReturnSumOfNumbers(){
+        String input = "//[aaa]\\n1aaa2aaa3";
+        Assert.assertEquals(6, Calc.Sum(input));
+    }
 
 
 }
