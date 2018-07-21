@@ -76,6 +76,12 @@ public class StringCalculatorTests {
 
     }
 
+    @Test
+    public void shouldIgnoreValueBiggerThan1000AndReturnSum(){
+        String input = "1001,2,3,4,";
+        Assert.assertEquals(9, Calc.Sum(input));
+    }
+
 
 
 }

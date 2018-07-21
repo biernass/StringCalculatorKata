@@ -15,13 +15,34 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/CalculatorString$StringCalculatorTests_input_with_new_separators_returns_sum_of_numbers.ic" NAME="StringCalculatorTests.input_with_new_separators_returns_sum_of_numbers Coverage Results" MODIFIED="1532180024936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="StringCalculatorTests.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Calc.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Calc.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="731">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="List.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/util/List.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3825">
+              <caret line="621" column="24" selection-start-line="621" selection-start-column="23" selection-end-line="621" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StringCalculatorTests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/StringCalculatorTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="36" column="24" lean-forward="true" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+            <state relative-caret-position="275">
+              <caret line="81" selection-start-line="81" selection-end-line="81" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -29,11 +50,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Calc.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Calc.java">
+      <file leaf-file-name="Assert.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="17">
+              <caret line="236" selection-start-line="236" selection-end-line="236" />
+              <folding>
+                <element signature="e#8383#8384#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -56,8 +80,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/StringCalculatorTest.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/test/java/StringCalculatorTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/Calc.java" />
+        <option value="$PROJECT_DIR$/src/test/java/StringCalculatorTests.java" />
       </list>
     </option>
   </component>
@@ -75,10 +99,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="62" />
-    <option name="y" value="62" />
-    <option name="width" value="1024" />
-    <option name="height" value="464" />
+    <option name="x" value="-8" />
+    <option name="width" value="1220" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -105,6 +128,13 @@
               <item name="CalculatorString" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CalculatorString" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CalculatorString" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CalculatorString" type="b2602c69:ProjectViewProjectNode" />
@@ -155,7 +185,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StringCalculatorTests.input_negative_returns_negativesNotAllowdedException_and_all_negative_numbers">
+  <component name="RunManager" selected="JUnit.StringCalculatorTests.shouldIgnoreValueBiggerThan1000AndReturnSum">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -167,23 +197,6 @@
       <option name="MAIN_CLASS_NAME" value="StringCalculatorTests" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="StringCalculatorTests.ending_newLine_is_invalid_returns_InvalidParameterException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CalculatorString" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StringCalculatorTests" />
-      <option name="METHOD_NAME" value="ending_newLine_is_invalid_returns_InvalidParameterException" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -210,13 +223,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="StringCalculatorTests.input_with_new_line_returns_sum_of_numbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringCalculatorTests.input_negative_returns_negativesNotAllowdedException_and_all_negative_numbers2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CalculatorString" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="StringCalculatorTests" />
-      <option name="METHOD_NAME" value="input_with_new_line_returns_sum_of_numbers" />
+      <option name="METHOD_NAME" value="input_negative_returns_negativesNotAllowdedException_and_all_negative_numbers2" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -234,6 +247,23 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="StringCalculatorTests" />
       <option name="METHOD_NAME" value="input_with_new_separators_returns_sum_of_numbers" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="StringCalculatorTests.shouldIgnoreValueBiggerThan1000AndReturnSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CalculatorString" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StringCalculatorTests" />
+      <option name="METHOD_NAME" value="shouldIgnoreValueBiggerThan1000AndReturnSum" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -284,18 +314,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.StringCalculatorTests" />
-      <item itemvalue="JUnit.StringCalculatorTests.input_with_new_line_returns_sum_of_numbers" />
-      <item itemvalue="JUnit.StringCalculatorTests.ending_newLine_is_invalid_returns_InvalidParameterException" />
       <item itemvalue="JUnit.StringCalculatorTests.input_with_new_separators_returns_sum_of_numbers" />
       <item itemvalue="JUnit.StringCalculatorTests.input_negative_returns_negativesNotAllowdedException_and_all_negative_numbers" />
+      <item itemvalue="JUnit.StringCalculatorTests.input_negative_returns_negativesNotAllowdedException_and_all_negative_numbers2" />
+      <item itemvalue="JUnit.StringCalculatorTests.shouldIgnoreValueBiggerThan1000AndReturnSum" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StringCalculatorTests.input_negative_returns_negativesNotAllowdedException_and_all_negative_numbers" />
+        <item itemvalue="JUnit.StringCalculatorTests.shouldIgnoreValueBiggerThan1000AndReturnSum" />
         <item itemvalue="JUnit.StringCalculatorTests" />
         <item itemvalue="JUnit.StringCalculatorTests.input_with_new_separators_returns_sum_of_numbers" />
-        <item itemvalue="JUnit.StringCalculatorTests.ending_newLine_is_invalid_returns_InvalidParameterException" />
-        <item itemvalue="JUnit.StringCalculatorTests.input_with_new_line_returns_sum_of_numbers" />
+        <item itemvalue="JUnit.StringCalculatorTests.input_negative_returns_negativesNotAllowdedException_and_all_negative_numbers2" />
+        <item itemvalue="JUnit.StringCalculatorTests.input_negative_returns_negativesNotAllowdedException_and_all_negative_numbers" />
       </list>
     </recent_temporary>
   </component>
@@ -309,7 +339,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1532164908408</updated>
-      <workItem from="1532164911154" duration="9255000" />
+      <workItem from="1532164911154" duration="19532000" />
     </task>
     <task id="LOCAL-00001" summary="Adding one_and_two_in_input_returns_numbers() test and first implementation.">
       <created>1532167387508</created>
@@ -332,68 +362,76 @@
       <option name="project" value="LOCAL" />
       <updated>1532172350565</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Adding implementation &quot;negatives not allowed&quot;">
+      <created>1532174285028</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1532174285028</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StringCalculatorTests_input_negative_returns_negativesNotAllowdedException_and_all_negative_numbers - 2018.07.21 at 13h 39m 24s.xml">
-      <configuration name="StringCalculatorTests.input_negative_returns_negativesNotAllowdedException_and_all_negative_numbers" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StringCalculatorTests_input_negative_returns_negativesNotAllowdedException_and_all_negative_numbers - 2018.07.21 at 13h 41m 13s.xml">
-      <configuration name="StringCalculatorTests.input_negative_returns_negativesNotAllowdedException_and_all_negative_numbers" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StringCalculatorTests_input_negative_returns_negativesNotAllowdedException_and_all_negative_numbers - 2018.07.21 at 13h 46m 41s.xml">
-      <configuration name="StringCalculatorTests.input_negative_returns_negativesNotAllowdedException_and_all_negative_numbers" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StringCalculatorTests - 2018.07.21 at 13h 48m 50s.xml">
+    <history-entry file="StringCalculatorTests - 2018.07.21 at 20h 38m 49s.xml">
       <configuration name="StringCalculatorTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringCalculatorTests - 2018.07.21 at 13h 50m 38s.xml">
+    <history-entry file="StringCalculatorTests - 2018.07.21 at 20h 39m 58s.xml">
       <configuration name="StringCalculatorTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringCalculatorTests_input_negative_returns_negativesNotAllowdedException_and_all_negative_numbers - 2018.07.21 at 13h 52m 27s.xml">
-      <configuration name="StringCalculatorTests.input_negative_returns_negativesNotAllowdedException_and_all_negative_numbers" configurationId="JUnit" />
+    <history-entry file="StringCalculatorTests - 2018.07.21 at 20h 41m 03s.xml">
+      <configuration name="StringCalculatorTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringCalculatorTests_input_negative_returns_negativesNotAllowdedException_and_all_negative_numbers - 2018.07.21 at 13h 52m 37s.xml">
-      <configuration name="StringCalculatorTests.input_negative_returns_negativesNotAllowdedException_and_all_negative_numbers" configurationId="JUnit" />
+    <history-entry file="StringCalculatorTests_shouldIgnoreValueBiggerThan1000AndReturnSum - 2018.07.21 at 20h 46m 46s.xml">
+      <configuration name="StringCalculatorTests.shouldIgnoreValueBiggerThan1000AndReturnSum" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringCalculatorTests_input_negative_returns_negativesNotAllowdedException_and_all_negative_numbers - 2018.07.21 at 13h 53m 02s.xml">
-      <configuration name="StringCalculatorTests.input_negative_returns_negativesNotAllowdedException_and_all_negative_numbers" configurationId="JUnit" />
+    <history-entry file="StringCalculatorTests_shouldIgnoreValueBiggerThan1000AndReturnSum - 2018.07.21 at 20h 48m 28s.xml">
+      <configuration name="StringCalculatorTests.shouldIgnoreValueBiggerThan1000AndReturnSum" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringCalculatorTests_input_negative_returns_negativesNotAllowdedException_and_all_negative_numbers - 2018.07.21 at 13h 53m 18s.xml">
-      <configuration name="StringCalculatorTests.input_negative_returns_negativesNotAllowdedException_and_all_negative_numbers" configurationId="JUnit" />
+    <history-entry file="StringCalculatorTests_shouldIgnoreValueBiggerThan1000AndReturnSum - 2018.07.21 at 20h 49m 11s.xml">
+      <configuration name="StringCalculatorTests.shouldIgnoreValueBiggerThan1000AndReturnSum" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringCalculatorTests_input_negative_returns_negativesNotAllowdedException_and_all_negative_numbers - 2018.07.21 at 13h 54m 22s.xml">
-      <configuration name="StringCalculatorTests.input_negative_returns_negativesNotAllowdedException_and_all_negative_numbers" configurationId="JUnit" />
+    <history-entry file="StringCalculatorTests_shouldIgnoreValueBiggerThan1000AndReturnSum - 2018.07.21 at 20h 49m 22s.xml">
+      <configuration name="StringCalculatorTests.shouldIgnoreValueBiggerThan1000AndReturnSum" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringCalculatorTests_shouldIgnoreValueBiggerThan1000AndReturnSum - 2018.07.21 at 20h 49m 43s.xml">
+      <configuration name="StringCalculatorTests.shouldIgnoreValueBiggerThan1000AndReturnSum" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringCalculatorTests_shouldIgnoreValueBiggerThan1000AndReturnSum - 2018.07.21 at 20h 50m 17s.xml">
+      <configuration name="StringCalculatorTests.shouldIgnoreValueBiggerThan1000AndReturnSum" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringCalculatorTests_shouldIgnoreValueBiggerThan1000AndReturnSum - 2018.07.21 at 20h 51m 32s.xml">
+      <configuration name="StringCalculatorTests.shouldIgnoreValueBiggerThan1000AndReturnSum" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9255000" />
+    <option name="totallyTimeSpent" value="19532000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" weight="0.32793522" />
+      <window_info anchor="bottom" id="Messages" weight="0.32523617" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" weight="0.32928476" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.50065106" side_tool="true" weight="0.3117409" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32928476" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30769232" />
       <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="right" id="Coverage" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20182292" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22265625" />
       <window_info anchor="right" id="Database" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
       <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3117409" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49934897" visible="true" weight="0.3117409" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -413,11 +451,26 @@
     <MESSAGE value="Adding one_and_two_in_input_returns_numbers() test and first implementation." />
     <MESSAGE value="Add new separator test and implementation" />
     <MESSAGE value="Adding test &quot;negatives not allowed&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding test &quot;negatives not allowed&quot;" />
+    <MESSAGE value="Adding implementation &quot;negatives not allowed&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding implementation &quot;negatives not allowed&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="13" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Calc.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Calc.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="27" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -437,14 +490,81 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="577">
-          <caret line="77" column="10" lean-forward="true" selection-start-line="77" selection-start-column="10" selection-end-line="77" selection-end-column="10" />
+        <state relative-caret-position="66">
+          <caret line="74" column="1" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar!/org/hamcrest/CoreMatchers.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="e#1038#1039#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/rules/ExpectedExceptionMatcherBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="e#548#549#0" expanded="true" />
+            <element signature="e#595#596#0" expanded="true" />
+            <element signature="e#629#630#0" expanded="true" />
+            <element signature="e#702#703#0" expanded="true" />
+            <element signature="e#955#956#0" expanded="true" />
+            <element signature="e#1006#1007#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/rules/ExpectedException.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+          <folding>
+            <element signature="e#2274#2275#0" expanded="true" />
+            <element signature="e#2335#2336#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="656" selection-start-line="656" selection-end-line="656" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3825">
+          <caret line="621" column="24" selection-start-line="621" selection-start-column="23" selection-end-line="621" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/StringCalculatorTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-524">
+        <state relative-caret-position="17">
           <caret line="236" selection-start-line="236" selection-end-line="236" />
           <folding>
             <element signature="e#8383#8384#0" expanded="true" />
@@ -454,18 +574,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Calc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/StringCalculatorTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="36" column="24" lean-forward="true" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="731">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
         </state>
       </provider>
     </entry>
