@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e55c048e-246e-4733-8c45-80c6df068ab2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Calc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Calc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StringCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StringCalculatorTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StringCalculatorTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StringCalculatorTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,10 +20,22 @@
       <file leaf-file-name="StringCalculatorTests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/StringCalculatorTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+            <state relative-caret-position="204">
+              <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Assert.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-524">
+              <caret line="236" selection-start-line="236" selection-end-line="236" />
+              <folding>
+                <element signature="e#8383#8384#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -34,8 +44,8 @@
       <file leaf-file-name="Calc.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Calc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+            <state relative-caret-position="136">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -76,10 +86,11 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="628" />
-    <option name="width" value="1299" />
-    <option name="height" value="1050" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="62" />
+    <option name="y" value="62" />
+    <option name="width" value="1024" />
+    <option name="height" value="464" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -156,7 +167,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StringCalculatorTests.one_and_two_in_input_returns_numbers">
+  <component name="RunManager" selected="JUnit.StringCalculatorTests">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -177,13 +188,64 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="StringCalculatorTests.one_and_two_in_input_returns_numbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringCalculatorTests.ending_newLine_is_invalid_returns_InvalidParameterException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CalculatorString" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="StringCalculatorTests" />
-      <option name="METHOD_NAME" value="one_and_two_in_input_returns_numbers" />
+      <option name="METHOD_NAME" value="ending_newLine_is_invalid_returns_InvalidParameterException" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="StringCalculatorTests.input_with_new_line_returns_sum_of_numbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CalculatorString" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StringCalculatorTests" />
+      <option name="METHOD_NAME" value="input_with_new_line_returns_sum_of_numbers" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="StringCalculatorTests.input_with_new_separators_returns_sum_of_numbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CalculatorString" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StringCalculatorTests" />
+      <option name="METHOD_NAME" value="input_with_new_separators_returns_sum_of_numbers" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="StringCalculatorTests.more_than_two_input_returns_numbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CalculatorString" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StringCalculatorTests" />
+      <option name="METHOD_NAME" value="more_than_two_input_returns_numbers" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -234,12 +296,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.StringCalculatorTests" />
-      <item itemvalue="JUnit.StringCalculatorTests.one_and_two_in_input_returns_numbers" />
+      <item itemvalue="JUnit.StringCalculatorTests.more_than_two_input_returns_numbers" />
+      <item itemvalue="JUnit.StringCalculatorTests.input_with_new_line_returns_sum_of_numbers" />
+      <item itemvalue="JUnit.StringCalculatorTests.ending_newLine_is_invalid_returns_InvalidParameterException" />
+      <item itemvalue="JUnit.StringCalculatorTests.input_with_new_separators_returns_sum_of_numbers" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StringCalculatorTests.one_and_two_in_input_returns_numbers" />
         <item itemvalue="JUnit.StringCalculatorTests" />
+        <item itemvalue="JUnit.StringCalculatorTests.input_with_new_separators_returns_sum_of_numbers" />
+        <item itemvalue="JUnit.StringCalculatorTests.ending_newLine_is_invalid_returns_InvalidParameterException" />
+        <item itemvalue="JUnit.StringCalculatorTests.input_with_new_line_returns_sum_of_numbers" />
+        <item itemvalue="JUnit.StringCalculatorTests.more_than_two_input_returns_numbers" />
       </list>
     </recent_temporary>
   </component>
@@ -253,49 +321,78 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1532164908408</updated>
-      <workItem from="1532164911154" duration="2180000" />
+      <workItem from="1532164911154" duration="5664000" />
     </task>
+    <task id="LOCAL-00001" summary="Adding one_and_two_in_input_returns_numbers() test and first implementation.">
+      <created>1532167387508</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1532167387508</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StringCalculatorTests - 2018.07.21 at 11h 41m 06s.xml">
+    <history-entry file="StringCalculatorTests_input_with_new_separators_returns_sum_of_numbers - 2018.07.21 at 12h 48m 45s.xml">
+      <configuration name="StringCalculatorTests.input_with_new_separators_returns_sum_of_numbers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringCalculatorTests - 2018.07.21 at 12h 48m 54s.xml">
       <configuration name="StringCalculatorTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringCalculatorTests_one_and_two_in_input_returns_numbers - 2018.07.21 at 11h 42m 46s.xml">
-      <configuration name="StringCalculatorTests.one_and_two_in_input_returns_numbers" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StringCalculatorTests - 2018.07.21 at 11h 42m 53s.xml">
+    <history-entry file="StringCalculatorTests - 2018.07.21 at 12h 49m 28s.xml">
       <configuration name="StringCalculatorTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringCalculatorTests - 2018.07.21 at 12h 49m 39s.xml">
+      <configuration name="StringCalculatorTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringCalculatorTests - 2018.07.21 at 12h 50m 31s.xml">
+      <configuration name="StringCalculatorTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringCalculatorTests - 2018.07.21 at 12h 50m 39s.xml">
+      <configuration name="StringCalculatorTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringCalculatorTests - 2018.07.21 at 12h 51m 07s.xml">
+      <configuration name="StringCalculatorTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringCalculatorTests_input_with_new_separators_returns_sum_of_numbers - 2018.07.21 at 12h 51m 13s.xml">
+      <configuration name="StringCalculatorTests.input_with_new_separators_returns_sum_of_numbers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringCalculatorTests_input_with_new_separators_returns_sum_of_numbers - 2018.07.21 at 12h 53m 06s.xml">
+      <configuration name="StringCalculatorTests.input_with_new_separators_returns_sum_of_numbers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringCalculatorTests_input_with_new_separators_returns_sum_of_numbers - 2018.07.21 at 12h 55m 00s.xml">
+      <configuration name="StringCalculatorTests.input_with_new_separators_returns_sum_of_numbers" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2180000" />
+    <option name="totallyTimeSpent" value="5664000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="762" y="0" width="781" height="840" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" weight="0.32928476" />
+      <window_info anchor="bottom" id="Messages" weight="0.32793522" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" weight="0.32928476" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3328786" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32928476" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.3285528" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.32780486" />
       <window_info anchor="right" id="Database" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
       <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3994602" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -311,17 +408,27 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adding one_and_two_in_input_returns_numbers() test and first implementation." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding one_and_two_in_input_returns_numbers() test and first implementation." />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Calc.java</url>
-          <line>9</line>
+          <line>12</line>
           <properties />
-          <option name="timeStamp" value="2" />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Calc.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="3" />
+      <option name="time" value="10" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -346,10 +453,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-524">
+          <caret line="236" selection-start-line="236" selection-end-line="236" />
+          <folding>
+            <element signature="e#8383#8384#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/StringCalculatorTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        <state relative-caret-position="204">
+          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -358,8 +475,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Calc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        <state relative-caret-position="136">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
