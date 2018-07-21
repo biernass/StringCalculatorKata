@@ -68,13 +68,14 @@ public class StringCalculatorTests {
 
     @Test
     public void input_negative_returns_negativesNotAllowdedException_and_all_negative_numbers() {
-        String input = "-1,2,-3,4";
+        String input = "-1,2,-3,4,";
 
         exceptedException.expect(InvalidParameterException.class);
-        exceptedException.expectMessage("negatives not allowed. Negative numbers: -1, -3");
+        exceptedException.expectMessage("negatives not allowed. Negative numbers: -1 -3");
         Calc.Sum(input);
 
     }
+
 
 
 }
