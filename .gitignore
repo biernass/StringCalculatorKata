@@ -77,3 +77,4 @@ fabric.properties
 
 .gitignore
 src/main/resources/
+target/

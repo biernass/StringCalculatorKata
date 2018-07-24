@@ -83,10 +83,14 @@ public class StringCalculatorTests {
     }
 
     @Test
-    public void shouldInputWithLongSeparatorAndReturnSumOfNumbers(){
+    public void shouldInputWithLongDelimiterAndReturnSumOfNumbers(){
         String input = "//[aaa]\\n1aaa2aaa3";
         Assert.assertEquals(6, Calc.Sum(input));
     }
 
-
+    @Test
+    public void shouldReturnSumIfInputIsMoreThanOneDelimiter(){
+        String input = "//[%][a]\\n1%2a3";
+        Assert.assertEquals(6, Calc.Sum(input));
+    }
 }
