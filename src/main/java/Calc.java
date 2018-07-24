@@ -1,5 +1,6 @@
 import java.security.InvalidParameterException;
 import java.util.Arrays;
+import java.util.regex.Pattern;
 
 public class Calc {
     public static int Sum(String input) {
@@ -21,7 +22,7 @@ public class Calc {
             }*/
 
             int customSeparatorStartPosition = input.indexOf("//") + "//".length();
-            int customSeparatorEndPosition = input.indexOf("\\n");
+            int customSeparatorEndPosition = input.indexOf("\n");
             String customSeparatorsDefinition = input.substring(customSeparatorStartPosition, customSeparatorEndPosition);
 
             if(customSeparatorsDefinition.startsWith("[") && customSeparatorsDefinition.endsWith("]")){
@@ -29,7 +30,7 @@ public class Calc {
                         customSeparatorsDefinition.length() - 1);
                 String customSeparators = customSeparatorsWhithoutFirstAndLastBracket.replace("][", "|");
 
-                String newInput = input.substring(customSeparatorEndPosition + 2, input.length());
+                String newInput = input.substring(customSeparatorEndPosition + 1, input.length());
                 String[] characters = newInput.split(",|\n|" + customSeparators);
 
                 for (int i = 0; i < characters.length; i++) {
