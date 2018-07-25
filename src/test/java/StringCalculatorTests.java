@@ -68,7 +68,7 @@ public class StringCalculatorTests {
 
     @Test
     public void input_negative_returns_negativesNotAllowdedException_and_all_negative_numbers() {
-        String input = "-1,2,-3,4,";
+        String input = "-1,2,-3,4";
 
         exceptedException.expect(InvalidParameterException.class);
         exceptedException.expectMessage("negatives not allowed. Negative numbers: -1 -3");
@@ -77,26 +77,26 @@ public class StringCalculatorTests {
     }
 
     @Test
-    public void shouldIgnoreValueBiggerThan1000AndReturnSum(){
-        String input = "1001,2,3,4,";
+    public void input_more_than_thousand_ignore_value_and_return_sum(){
+        String input = "1001,2,3,4";
         Assert.assertEquals(9, Calc.Sum(input));
     }
 
     @Test
-    public void shouldInputWithLongDelimiterAndReturnSumOfNumbers(){
+    public void input_with_long_delimiter_and_return_sum(){
         String input = "//[aaa]\n1aaa2aaa3";
         Assert.assertEquals(6, Calc.Sum(input));
     }
 
     @Test
-    public void shouldReturnSumIfInputIsMoreThanOneDelimiter(){
+    public void input_more_than_one_delimiter_and_return_sum(){
         String input = "//[%][a]\n1%2a3";
         Assert.assertEquals(6, Calc.Sum(input));
     }
 
 
     @Test
-    public void shouldReturnSumIfInputIsMoreThanOneDelimiterWithMoreThanOneCharacter(){
+    public void input_more_than_one_delimiter_with_more_than_one_character_return_sum(){
         String input = "//[aaa][opa][vvv][ppp]\n1aaa2opa3ppp2vvv1";
         Assert.assertEquals(9, Calc.Sum(input));
     }
